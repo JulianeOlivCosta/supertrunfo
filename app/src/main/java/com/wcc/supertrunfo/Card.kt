@@ -1,9 +1,13 @@
 package com.wcc.supertrunfo
 
+import com.wcc.supertrunfo.entities.Driver
+import com.wcc.supertrunfo.entities.Player
+import com.wcc.supertrunfo.entities.Vehicle
+
 class Card(
-    private val vehicle: Vehicle,
-    private val driver: Driver,
-    private val player: Player
+        private val vehicle: Vehicle,
+        private val driver: Driver,
+        private val player: Player
 ) {
     val label: String = "Card ${player.name}"
     val maxVelocity = initMaxVelocity()
