@@ -4,7 +4,7 @@ import com.wcc.supertrunfo.entities.Driver
 import com.wcc.supertrunfo.entities.Vehicle
 
 class SuperTrunfoDatabase {
-     fun getAllVehicles: List<Vehicle>{
+     fun getAllVehicles(): List<Vehicle>{
 
          val vehicleOne = Vehicle(
                  100,
@@ -121,7 +121,7 @@ class SuperTrunfoDatabase {
 
      }
 
-     fun getAllDrivers: List<Driver>{
+     fun getAllDrivers(): List<Driver>{
 
          val DriverOne = Driver(
                  40,
